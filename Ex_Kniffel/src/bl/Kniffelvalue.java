@@ -5,10 +5,7 @@
  */
 package bl;
 
-/**
- *
- * @author oskar
- */
+
 public class Kniffelvalue {
     
 }

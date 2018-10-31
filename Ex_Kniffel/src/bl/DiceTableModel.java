@@ -26,13 +26,13 @@ public class DiceTableModel extends AbstractTableModel {
 
     {
 
-        images.add(new ImageIcon("C:\\Users\\oskar\\OneDrive\\3CHIF\\POS\\Kniffel\\src\\pictures\\Alea_1.png"));
-        images.add(new ImageIcon("C:\\Users\\oskar\\OneDrive\\3CHIF\\POS\\Kniffel\\src\\pictures\\Alea_2.png"));
-        images.add(new ImageIcon("C:\\Users\\oskar\\OneDrive\\3CHIF\\POS\\Kniffel\\src\\pictures\\Alea_3.png"));
-        images.add(new ImageIcon("C:\\Users\\oskar\\OneDrive\\3CHIF\\POS\\Kniffel\\src\\pictures\\Alea_4.png"));
-        images.add(new ImageIcon("C:\\Users\\oskar\\OneDrive\\3CHIF\\POS\\Kniffel\\src\\pictures\\Alea_5.png"));
-        images.add(new ImageIcon("C:\\Users\\oskar\\OneDrive\\3CHIF\\POS\\Kniffel\\src\\pictures\\Alea_6.png"));
-        images.add(new ImageIcon("C:\\Users\\oskar\\OneDrive\\3CHIF\\POS\\Kniffel\\src\\pictures\\wuerfel.jpg"));
+        images.add(new ImageIcon("./src/pictures/Alea_1.png"));
+        images.add(new ImageIcon("./src/pictures/Alea_2.png"));
+        images.add(new ImageIcon("./src/pictures/Alea_3.png"));
+        images.add(new ImageIcon("./src/pictures/Alea_4.png"));
+        images.add(new ImageIcon("./src/pictures/Alea_5.png"));
+        images.add(new ImageIcon("./src/pictures/Alea_6.png"));
+        images.add(new ImageIcon("./src/pictures/wuerfel.jpg"));
 
         for (int i = 1; i < 6; i++) {
             dices.add(images.get(6));
